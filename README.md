@@ -3,13 +3,13 @@
 ## 🛠️ Setup
 
 ### Preparing the Code and Data
-download them from https://anonymous.4open.science/r/SAFSD-GLNetwork.
+download them from https://anonymous.4open.science/r/SAD-GLNet.
 
 ### Preparing the Environment
 ```bash
-conda create -n SAFSD-GLNet python==3.8
-cd SAFSD-GLNet
-conda activate SAFSD-GLNet
+conda create -n SAD-GLNet python==3.8
+cd SAD-GLNet
+conda activate SAD-GLNet
 ```
 - Check the packages needed or simply run the command:
 ```console

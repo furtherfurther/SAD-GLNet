@@ -3,7 +3,7 @@
 ## 🛠️ Setup
 
 ### Preparing the Code and Data
-download them from https://anonymous.4open.science/r/SAD-GLNet.
+download them from https://anonymous.4open.science/anonymize/SAD-GLNet-D314.
 
 ### Preparing the Environment
 ```bash

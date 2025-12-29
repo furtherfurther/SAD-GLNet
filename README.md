@@ -1,4 +1,4 @@
-# A Global-Local Fusion Network with Similarity-Aware Focal Self-Distillation for Multimodal Emotion Recognition in Conversations
+# A Global-Local Fusion Network with Similarity-Aware Distillation for Multimodal Emotion Recognition in Conversations
 
 ## 🛠️ Setup
 

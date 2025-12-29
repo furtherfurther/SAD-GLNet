@@ -4,7 +4,14 @@ import torch.nn.functional as F
 import math
 from model_gcn import GCN
 
-
+iemocap_similarity_matrix = torch.tensor([
+    [1.0, 0.3, 0.4, 0.2, 0.6, 0.3],  # happy
+    [0.3, 1.0, 0.4, 0.7, 0.4, 0.6],  # sad
+    [0.2, 0.5, 1.0, 0.4, 0.5, 0.2],  # neutral
+    [0.2, 0.7, 0.4, 1.0, 0.3, 0.5],  # angry
+    [0.6, 0.4, 0.5, 0.3, 1.0, 0.4],  # excited
+    [0.3, 0.8, 0.3, 0.5, 0.4, 1.0]   # frustrated
+], dtype=torch.float32)
 
 
 class KLDivLoss(nn.Module):
@@ -355,3 +362,4 @@ class Transformer_Based_Model(nn.Module):
         # Return log probabilities, probabilities, and temperature-scaled outputs for different modalities and fusion
         return (t_log_prob, a_log_prob, v_log_prob, log_prob, prob,
                 kl_t_log_prob_1, kl_a_log_prob_1, kl_v_log_prob_1, kl_all_prob_1)
+

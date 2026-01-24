@@ -1,9 +1,9 @@
-# A Global-Local Fusion Network with Similarity-Aware Distillation for Multimodal Emotion Recognition in Conversations
+# SAD-GLNet: A Global-Local Fusion Network with Similarity-Aware Distillation for Multimodal Emotion Recognition in Conversations
 
 ## 🛠️ Setup
 
-### Preparing the Code and Data
-download them from https://anonymous.4open.science/anonymize/SAD-GLNet-D314.
+### Preparing the Code
+download code from https://github.com/furtherfurther/SAD-GLNet.
 
 ### Preparing the Environment
 ```bash
